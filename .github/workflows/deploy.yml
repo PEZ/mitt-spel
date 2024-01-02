@@ -28,9 +28,6 @@ jobs:
           cp index.html ./deploy/
           cp -r ./assets ./deploy/
 
-      - name: List Deployment Files
-        run: ls -l ./deploy
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
