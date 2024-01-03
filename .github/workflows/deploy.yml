@@ -5,7 +5,7 @@ on:
       - main # If your default branch is named something else, change this
 
 permissions:
-  contents: read
+  contents: write
   pages: write
 
 jobs:
